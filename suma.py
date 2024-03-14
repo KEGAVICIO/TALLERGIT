@@ -1,9 +1,10 @@
 # Solicitar al usuario que ingrese dos números
-num1 = float(input("Ingresa el primer número: "))
-num2 = float(input("Ingresa el segundo número: "))
+#num1 = float(input("Ingresa el primer número: "))
+#num2 = float(input("Ingresa el segundo número: "))
 
 # Sumar los dos números
-def sum():
+def sum(num1, num2):
+    
     suma = num1 + num2
     return suma
 
